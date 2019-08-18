@@ -1,3 +1,4 @@
+#Resolvido usando o teorema de grafos de quatro cores
 class ColorindoMapa():
     def __init__(self):
         self.grafo_colorido = {}
