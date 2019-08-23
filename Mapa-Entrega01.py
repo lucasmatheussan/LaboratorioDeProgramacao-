@@ -1,4 +1,3 @@
-#Resolvido usando o teorema de grafos de quatro cores
 class ColorindoMapa():
     def __init__(self):
         self.grafo_colorido = {}
@@ -25,20 +24,18 @@ class ColorindoMapa():
                if(respota == True):
                    self.grafo_colorido[p] = k
                    break
+    def Contagem(self):
+        lista = []
+        for i in self.grafo_colorido.values():
+                if(i not in lista):
+                    lista.append(i)
+        return len(lista)
 
 teste = ColorindoMapa()
-estados = input("Digite o nome dos estados seprado por ; : ").split(";")
+estados = input("Digite o nome dos estados seprado por ; : ").lower().split(";")
 for k in estados:
-    vizinhos = input("Digite os vizinhos do estado %s seprado por ; " % k)
+    vizinhos = input("Digite os vizinhos do estado %s seprado por ; " % k).lower()
     teste.setGrafos(k,vizinhos)
 teste.EscolherCor()
 print(teste.grafo_colorido)
-
-
-
-
-
-
-
-
-
+print("Foram utilizidas %d cores"%teste.Contagem())
