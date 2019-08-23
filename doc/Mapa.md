@@ -54,3 +54,14 @@ A função ```EscolherCor``` é responsável por escolher a cor de cada região 
                    self.grafo_colorido[p] = k
                    break
 ```
+
+A Função ```Contagem``` é responsável por contar quantas cores foram utilizadas durante o processo de coloração do mapa.
+
+```
+def Contagem(self):
+        lista = []
+        for i in self.grafo_colorido.values():
+                if(i not in lista):
+                    lista.append(i)
+        return len(lista)
+``
