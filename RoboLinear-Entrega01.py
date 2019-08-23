@@ -8,7 +8,7 @@ class RL2():
     def Processamento(self):
         lista_copia = self.lista[::]
         if ("f" in self.lista and "t" in self.lista):
-            for i in teste:
+            for i in lista_copia:
                 if "t" == i and "f" in self.lista:
                   self.lista.remove("t")
                   self.lista.remove("f")
