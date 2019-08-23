@@ -14,3 +14,4 @@ Implementar um algoritmo que desmotre sequência de comandos para saber a distâ
 
 ## Resolução
 
+Usando um conceito semelhante ao de pilha de estrutura de dados, vamos resolver esse problema removendo algumas caracteres da entrada recebida e seu tamanho final, vai ser sua distancia que foi percorrido. 
