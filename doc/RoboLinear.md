@@ -27,7 +27,7 @@ class RL2():
         self.lista = [x for x in comandos]
 ```
 
-A função responsável por realizar o processo de verificar a distância percorrida pelo robô é ```def Processamento```, usando uma teoria semelhante a de pilha, porém aqui vai retirado os primeiras linhas inseridas. Caso os comandos ```F``` e ```T``` esteja juntos na entrada, a função vai retirar um de cada comando da lista até ficar somente um tipo de comando e resultado vai ser o tamanho da lista.
+A função responsável por realizar o processo de verificar da distância percorrida pelo robô é ```def Processamento```, usando uma teoria semelhante a de pilha, porém aqui vai ser retirada as primeiras posições inseridas. Caso os comandos ```F``` e ```T``` esteja juntos na entrada, a função vai retirar um de cada comando da lista até ficar somente um tipo de comando e resultado vai ser o tamanho da lista.
 
 ```
  def Processamento(self):
