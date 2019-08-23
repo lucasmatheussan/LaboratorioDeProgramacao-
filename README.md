@@ -4,6 +4,6 @@ problemas através da programação e do uso de estruturas de dados.
 
 Professor Jones Albuquerque	 
 ## Tarefas 
-  - [X] [Colorindo Mapa usando teorema das quarto cores](/doc/Mapa.md)
+  - [X] [Colorindo Mapa com mínimo possível de cores (Usando teorema das quarto cores)](/doc/Mapa.md)
   - [X] [Robô Linear (Usando Pilhas)](/doc/RoboLinear.md)
  
